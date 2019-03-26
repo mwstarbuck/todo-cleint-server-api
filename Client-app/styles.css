@@ -1,0 +1,11 @@
+#listBox {
+    display: flex;
+    border: solid 2px black;
+}
+.toDoLI {
+    display: flex;
+    justify-content: center;
+}
+.toDoLI p {
+    margin: 10px;
+}

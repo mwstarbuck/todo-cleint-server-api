@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="container">
+        <div id="addToDoBox">
+            <h2>Add a ToDo Item</h2>
+            <input id="titleTxtBox" type="text" placeholder="Enter ToDo" />
+            <input id="priorityTxtBox" type="text" placeholder="Priority" />
+            <input id="dateCreatedTxtBox" type="text" placeholder="Date" />
+            <button id="addToDoBtn">Add ToDo</button>
+        </div>
+        <div id="ToDoBox">
+            <h2>To Do List:</h2>
+            <button id="getToDoBtn">Get Current ToDo List</button>
+            <div id="listBox">
+                <ul id="toDoUL">
+            </div>
+            </ul>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
